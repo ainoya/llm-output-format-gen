@@ -40,7 +40,7 @@ jobs:
       - name: build
         run: npm run build
         env:
-          BASE_URL: https://ainoya.github.io/llm-output-format-gen/
+          GITHUB_PAGES: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
