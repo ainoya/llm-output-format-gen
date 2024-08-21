@@ -78,6 +78,10 @@ After generating the schema, you can use it as completion api option in OpenAI, 
 
 > NOTE: Some LLM APIs may not support the use of oneOf in JSON Schema and therefore may not be able to utilize the json output API option. In this case, please embed the generated schema directly into the prompt.
 
+## Example
+
+- [Example 1](https://ainoya.github.io/llm-output-format-gen/?items=%5B%7B%22key%22%3A%22summary%22%2C%22type%22%3A%22text%22%2C%22description%22%3A%22summarize+following+text.%22%7D%2C%7B%22key%22%3A%22tags%22%2C%22type%22%3A%22multipleSelect%22%2C%22description%22%3A%22Topics+of+following+text.%22%2C%22options%22%3A%5B%22sport%22%2C%22technology%22%5D%7D%5D&topLevelKey=result)
+
 ## License
 
 This project is licensed under the MIT License.
