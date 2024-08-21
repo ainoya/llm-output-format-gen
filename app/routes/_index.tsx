@@ -234,6 +234,11 @@ export default function Index() {
 
   return (
     <div className="container mx-auto p-4">
+      <p>
+        <a href="https://github.com/ainoya/llm-output-format-gen">
+          github: ainoya/llm-output-format-gen
+        </a>
+      </p>
       <h2 className="text-2xl font-bold mb-4">Item Definitions</h2>
       <div className="space-y-4">
         {items.map((item, index) => (
